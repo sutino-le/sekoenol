@@ -11,10 +11,20 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
+
+    <!-- untuk ajax -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- untuk icon bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- icon fontawesome -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
     <link rel="stylesheet" href="<?= base_url() ?>/assets/sweetalert/sweetalert2.min.css">
     <script src="<?= base_url() ?>/assets/sweetalert/sweetalert2.all.min.js"></script>
+
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/style.css">
 </head>
 
 <body>
@@ -33,8 +43,8 @@
 
                     <form action="<?= base_url() ?>/adminmain/login" class="formlogin">
                         <div class="form-group">
-                            <label for="userid">Username:</label>
-                            <input type="text" class="form-control" id="userid" placeholder="Enter username" name="userid" autocomplete="off">
+                            <label for="userid">User ID:</label>
+                            <input type="email" class="form-control" id="userid" placeholder="Enter User ID" name="userid" autocomplete="off">
                             <div class="invalid-feedback errorUserID"></div>
                         </div>
                         <div class="form-group">
