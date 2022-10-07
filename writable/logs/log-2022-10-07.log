@@ -1,0 +1,52 @@
+CRITICAL - 2022-10-07 01:53:44 --> Undefined variable: json
+in APPPATH\Controllers\Adm_Main.php on line 44.
+ 1 APPPATH\Controllers\Adm_Main.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: json', 'APPPATH\\Controllers\\Adm_Main.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Adm_Main->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adm_Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-07 01:53:47 --> Undefined variable: json
+in APPPATH\Controllers\Adm_Main.php on line 44.
+ 1 APPPATH\Controllers\Adm_Main.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: json', 'APPPATH\\Controllers\\Adm_Main.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Adm_Main->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adm_Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-07 02:12:56 --> Undefined variable: json
+in APPPATH\Controllers\AdminMain.php on line 46.
+ 1 APPPATH\Controllers\AdminMain.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: json', 'APPPATH\\Controllers\\AdminMain.php', 46, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\AdminMain->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminMain))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-07 02:12:59 --> Undefined variable: json
+in APPPATH\Controllers\AdminMain.php on line 46.
+ 1 APPPATH\Controllers\AdminMain.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: json', 'APPPATH\\Controllers\\AdminMain.php', 46, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\AdminMain->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminMain))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-07 02:21:27 --> Invalid file: admin/home/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/home/index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 3 APPPATH\Controllers\AdminHome.php(11): view('admin/home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\AdminHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-07 02:22:01 --> Invalid file: admin/home/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/home/index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 3 APPPATH\Controllers\AdminHome.php(11): view('admin/home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\AdminHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
