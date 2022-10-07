@@ -25,6 +25,8 @@
     <script src="<?= base_url() ?>/assets/sweetalert/sweetalert2.all.min.js"></script>
 
     <link rel="stylesheet" href="<?= base_url() ?>/assets/css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.prinsh.com/NathanPrinsley-textstyle/nprinsh-stext.css" />
 </head>
 
 <body>
@@ -34,12 +36,16 @@
         <div class="container-fluid mt-5 mb-5">
             <div class="row justify-content-md-center">
 
-                <div class="col-6">
+                <div class="col">
                     <div class="container-fluid text-center">
-                        <img src="<?= base_url() ?>/assets/upload/logo.png" width="50px" height="50px">
+                        <img src="<?= base_url() ?>/assets/upload/logo.png" width="100px" height="100px">
                     </div>
-                    <h2 class="text-center">Sekoenol System</h2>
+                    <div class="nprinsley-text-rainbowan">
+                        <h2 class="text-center">Sekoenol System</h2>
+                    </div>
                     <p align="center" class="mb-5">Common People App</p>
+
+                    <hr class="mb-5" style="height:2px;border-width:0;color:gray;background-color:gray">
 
                     <form action="<?= base_url() ?>/adminmain/login" class="formlogin">
                         <div class="form-group">
@@ -56,7 +62,8 @@
                             <label class="form-check-label">
                             </label>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+
+                        <button type="submit" class="btn btn-primary btn-block button">Login</button>
                     </form>
 
                 </div>

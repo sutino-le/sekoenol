@@ -24,6 +24,9 @@
     <script src="<?= base_url() ?>/assets/sweetalert/sweetalert2.all.min.js"></script>
 
     <link rel="stylesheet" href="<?= base_url() ?>/assets/css/style.css">
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.prinsh.com/NathanPrinsley-textstyle/nprinsh-stext.css" />
 </head>
 
 <body>
