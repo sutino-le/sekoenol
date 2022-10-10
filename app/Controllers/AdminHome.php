@@ -8,6 +8,6 @@ class AdminHome extends BaseController
 {
     public function index()
     {
-        return view('admin/home/layout');
+        return view('admin/home/welcome');
     }
 }

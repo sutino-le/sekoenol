@@ -10,8 +10,9 @@ class Levels extends Migration
     {
         $this->forge->addField([
             'levelid' => [
-                'type'           => 'VARCHAR',
-                'constraint'     => '100',
+                'type'           => 'INT',
+                'constraint'     => 11,
+                'auto_increment' => true,
             ],
             'levelnama' => [
                 'type'       => 'VARCHAR',

@@ -14,16 +14,3 @@ for (i = 0; i < dropdown.length; i++) {
     });
 }
 
-
-$('#logout').click(function(e) {
-    e.preventDefault();
-    Swal.fire({
-        icon: 'success',
-        title: 'Berhasil',
-        text: 'Anda telah logout . . .'
-    }).then((result) => {
-        if (result.isConfirmed) {
-            location.href = "/adminmain";
-        }
-    });
-});

@@ -1,0 +1,64 @@
+CRITICAL - 2022-10-09 20:58:16 --> Undefined index: userpassword
+in APPPATH\Controllers\AdminMain.php on line 62.
+ 1 APPPATH\Controllers\AdminMain.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userpassword', 'APPPATH\\Controllers\\AdminMain.php', 62, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\AdminMain->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminMain))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-09 21:00:30 --> Undefined index: userpassword
+in APPPATH\Controllers\AdminMain.php on line 62.
+ 1 APPPATH\Controllers\AdminMain.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userpassword', 'APPPATH\\Controllers\\AdminMain.php', 62, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\AdminMain->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminMain))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-09 21:01:51 --> Undefined index: userpassword
+in APPPATH\Controllers\AdminMain.php on line 62.
+ 1 APPPATH\Controllers\AdminMain.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userpassword', 'APPPATH\\Controllers\\AdminMain.php', 62, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\AdminMain->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminMain))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-09 21:02:32 --> Undefined index: userpassword
+in APPPATH\Controllers\AdminMain.php on line 65.
+ 1 APPPATH\Controllers\AdminMain.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userpassword', 'APPPATH\\Controllers\\AdminMain.php', 65, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\AdminMain->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminMain))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-09 21:04:12 --> Undefined index: userpassword
+in APPPATH\Controllers\AdminMain.php on line 65.
+ 1 APPPATH\Controllers\AdminMain.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userpassword', 'APPPATH\\Controllers\\AdminMain.php', 65, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\AdminMain->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminMain))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-09 21:05:03 --> Undefined index: userpassword
+in APPPATH\Controllers\AdminMain.php on line 65.
+ 1 APPPATH\Controllers\AdminMain.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userpassword', 'APPPATH\\Controllers\\AdminMain.php', 65, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\AdminMain->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminMain))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-09 21:07:44 --> Undefined index: userpassword
+in APPPATH\Controllers\AdminMain.php on line 65.
+ 1 APPPATH\Controllers\AdminMain.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userpassword', 'APPPATH\\Controllers\\AdminMain.php', 65, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\AdminMain->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminMain))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-09 21:07:57 --> Undefined index: userpassword
+in APPPATH\Controllers\AdminMain.php on line 65.
+ 1 APPPATH\Controllers\AdminMain.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userpassword', 'APPPATH\\Controllers\\AdminMain.php', 65, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\AdminMain->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminMain))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

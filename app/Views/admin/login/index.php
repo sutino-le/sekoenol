@@ -45,7 +45,6 @@
                     </div>
                     <p align="center" class="mb-5">Common People App</p>
 
-                    <hr class="mb-5" style="height:2px;border-width:0;color:gray;background-color:gray">
 
                     <form action="<?= base_url() ?>/adminmain/login" class="formlogin">
                         <div class="form-group">
