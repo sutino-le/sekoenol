@@ -45,7 +45,7 @@ class Filters extends BaseConfig
             // 'honeypot',
             // 'secureheaders',
             'filterAdmin' => [
-                'except' => ['adminmain/*', 'adminhome/*',]
+                'except' => ['adminmain/*', 'adminhome/*', 'adminlevel/*',]
             ],
             'toolbar',
         ],
