@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 07 Okt 2022 pada 11.58
+-- Waktu pembuatan: 11 Okt 2022 pada 03.14
 -- Versi server: 10.4.24-MariaDB
 -- Versi PHP: 7.4.28
 
@@ -28,9 +28,16 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `levels` (
-  `levelid` varchar(100) NOT NULL,
+  `levelid` int(11) NOT NULL,
   `levelnama` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data untuk tabel `levels`
+--
+
+INSERT INTO `levels` (`levelid`, `levelnama`) VALUES
+(1, 'Admin');
 
 -- --------------------------------------------------------
 
@@ -53,8 +60,8 @@ CREATE TABLE `migrations` (
 --
 
 INSERT INTO `migrations` (`id`, `version`, `class`, `group`, `namespace`, `time`, `batch`) VALUES
-(4, '2022-10-07-095148', 'App\\Database\\Migrations\\Users', 'default', 'App', 1665136671, 1),
-(5, '2022-10-07-095640', 'App\\Database\\Migrations\\Levels', 'default', 'App', 1665136671, 1);
+(8, '2022-10-07-095148', 'App\\Database\\Migrations\\Users', 'default', 'App', 1665365343, 1),
+(9, '2022-10-07-095640', 'App\\Database\\Migrations\\Levels', 'default', 'App', 1665365343, 1);
 
 -- --------------------------------------------------------
 
@@ -68,6 +75,13 @@ CREATE TABLE `users` (
   `password` varchar(100) NOT NULL,
   `userlevel` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data untuk tabel `users`
+--
+
+INSERT INTO `users` (`userid`, `usernama`, `password`, `userlevel`) VALUES
+('sutino@gmail.com', 'Sutino', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 1);
 
 --
 -- Indexes for dumped tables
@@ -96,10 +110,16 @@ ALTER TABLE `users`
 --
 
 --
+-- AUTO_INCREMENT untuk tabel `levels`
+--
+ALTER TABLE `levels`
+  MODIFY `levelid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT untuk tabel `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
